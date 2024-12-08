@@ -1,0 +1,346 @@
+* {
+  box-sizing: border-box; /* Includes padding and border in the element's total width */
+}
+
+.body {
+  background-color: black;
+}
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  margin: 5px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+.long {
+  height: 30px;
+  width: 100%;
+  background-color: #555;
+  margin-top: 5px;
+  border-radius: 10px;
+  margin-right: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid white;
+}
+.big {
+  height: 178px;
+  width: auto;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mid {
+  display: flex;
+}
+.mid-left,
+.mid-right {
+  margin: 2px;
+}
+.mid-left {
+  background-color: #555;
+  border-radius: 10px;
+  margin: 2px;
+  border: 2px solid white;
+}
+.mid-right {
+  background-color: rgba(255, 255, 128, 0.5);
+  border-radius: 10px;
+  margin: 2px;
+  border: 2px solid white;
+}
+.right-top {
+  display: flex;
+}
+.rectangle {
+  height: 60px;
+  width: 100%;
+  background-color: #555;
+  margin-left: 3px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+}
+.longWide {
+  height: 50px;
+  width: 100%;
+  margin: 5px 2px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.mid-left,
+.mid-right {
+  flex: 1;
+}
+.right {
+  width: 100%;
+}
+.top {
+  display: flex;
+}
+.canvas {
+  width: 400px;
+  height: 200px;
+}
+.bottom-first {
+  background-color: #2b01ff;
+  border-radius: 10px;
+  margin-right: 3px;
+  border: 2px solid white;
+  margin-top: 18px;
+}
+.bottom-second {
+  background-color: #00a548;
+  border-radius: 10px;
+  margin-right: 3px;
+  border: 2px solid white;
+  margin-top: 5px;
+}
+.bottom-third {
+  background-color: #ff18f0;
+  border-radius: 10px;
+  margin-right: 3px;
+  border: 2px solid #ffffff;
+  margin-top: 5px;
+}
+.inner-rectangle {
+  height: 30px;
+  width: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.small-img {
+  width: 15px;
+  margin: 2px;
+  border-radius: 5px;
+}
+.medium-img {
+  width: 25px;
+  margin: 3px;
+  border-radius: 5px;
+}
+.circle {
+  height: 25px;
+  width: 25px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: 10px;
+}
+.corner {
+  position: relative;
+  top: 10px;
+  left: 15px;
+  width: 15px;
+  border-radius: 5px;
+}
+.standard-square {
+  height: 28px;
+  width: 28px;
+  background-color: #ffffff;
+  margin: 1.7px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-align {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+.mini {
+  position: relative;
+  border-radius: 5px;
+  top: -7px;
+  width: 20px;
+}
+.fox {
+  position: relative;
+  top: -10px;
+  width: 25px;
+}
+.between {
+  position: absolute;
+  top: 435px;
+  left: 48px;
+}
+.dash {
+  width: 10px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  margin-left: 32px;
+}
+.mark {
+  width: 25px;
+  margin-top: 0px;
+}
+.gap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  margin-left: 30px;
+  margin-bottom: 25px;
+}
+.minus {
+  width: 10px;
+  height: 2px;
+  background-color: black;
+}
+
+.blueMark {
+  position: absolute;
+  top: 374px;
+}
+.greaterEqual {
+  position: absolute;
+  margin-left: 30px;
+}
+.numbers {
+  position: absolute;
+  top: 361px;
+  z-index: 1;
+}
+.Row {
+  display: flex;
+}
+.imgRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.midCol {
+  margin: 0 4px;
+}
+.boundle {
+  display: flex;
+  align-items: end;
+}
+.boundle-img {
+  width: 20px;
+  height: 20px;
+}
+.letter {
+  font-size: small;
+}
+.scoring {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.imgLetter {
+  position: absolute;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-bottom: 1px;
+}
+.space {
+  margin-left: 12px;
+}
+.lower {
+  margin-top: 20px;
+  border: 2px solid red;
+}
+.rightYellow {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-left: 15px;
+  margin-top: 25px;
+  z-index: 1;
+}
+.normal {
+  margin-bottom: 20px;
+  z-index: 1;
+}
+.lower-square {
+  margin-top: 23px;
+  margin-right: 5px;
+}
+.bgi {
+  width: 196px;
+  height: 300px;
+  background-image: url("./src/image/arrows.png");
+  position: absolute;
+  top: 175px;
+  left: 210px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.z1 {
+  z-index: 1;
+}
+.yellowLeft {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 13px;
+}
+.yellow-mini {
+  margin-bottom: 4.4px;
+}
+
+.yellowBottom {
+  display: flex;
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 5px;
+}
+.yellow-bottom {
+  margin-right: 13.9px;
+}
+.firstRow {
+  display: flex;
+  position: absolute;
+  left: 250px;
+  top: 181px;
+}
+.secondRow {
+  display: flex;
+  position: absolute;
+  left: 235px;
+  top: 194px;
+}
+.yellow-top{
+  margin-right: 10px;
+  width:15px;
+}
+.smallLetter{
+  font-size: 8px;
+  margin-top: 5px;
+}
+.onYellow{
+  position: absolute;
+  margin-left: 10px;
+  font-size: 10px;
+}
+.mediumLetter{
+  position: absolute;
+  font-size: 10px;
+  margin-left: 10px;
+  margin-bottom: 1px;
+}
+.correction{
+  margin-left: 7.5px;
+}
+.doublecorrection{
+  margin-left: 4px;
+}
+.finalcorrection{
+  margin-left: 7px;
+}
